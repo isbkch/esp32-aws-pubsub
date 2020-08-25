@@ -1,0 +1,12 @@
+# Happy Coding!
+
+service: lambda-error
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  profile: iot
+
+functions:
+  process:
+    handler: handler.process
